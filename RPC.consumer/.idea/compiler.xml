@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Chen.rpc" />
+        <module name="Chen.RPC.netty" />
+        <module name="RPC.consumer" />
+        <module name="RPC.netty" />
+        <module name="netty" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Chen.RPC.consumer" target="1.7" />
+      <module name="consumer" target="1.7" />
+      <module name="Yin.consumer" target="1.7" />
+      <module name="Yin.rpc" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
